@@ -1,4 +1,4 @@
-defmodule Sequence.Stack do
+defmodule Sequence2.Stack do
   use GenServer
 
   def start_link(current_stack) do

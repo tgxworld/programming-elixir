@@ -1,6 +1,5 @@
-defmodule Factorial do
-  def of(0), do: 1
-  def of(n) when n > 0 do
-    n * of(n - 1)
-  end
-end
+Enum.reduce range &(&1 * &2)
+
+for example factorial 4 
+Enum.reduce 1..4 &(&1 * &2)
+
